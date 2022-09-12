@@ -795,3 +795,511 @@ INFO 2022-09-12 15:31:19,728 autoreload 251 E:\life\LifeSystem\LifeSystem\Propos
 INFO 2022-09-12 15:31:20,259 autoreload 637 Watching for file changes with StatReloader
 INFO 2022-09-12 15:31:22,474 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\TCM.py changed, reloading.
 INFO 2022-09-12 15:31:22,994 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 16:49:29,257 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 16:49:54,899 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 16:49:55,382 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 16:49:58,849 views 21 'id'
+ERROR 2022-09-12 16:49:58,849 views 22 Error Line No:18
+INFO 2022-09-12 16:49:58,850 basehttp 161 "POST / HTTP/1.1" 200 59
+INFO 2022-09-12 16:51:00,782 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 16:51:01,307 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 16:52:42,998 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 16:52:43,615 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 16:54:19,233 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 16:54:19,810 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 16:54:38,377 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 16:54:38,872 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 16:54:40,432 Sports 241 运动模块故障:invalid literal for int() with base 10: ''
+ERROR 2022-09-12 16:54:40,432 Sports 242 Error Line No:221
+ERROR 2022-09-12 16:54:40,433 BaseInfo 43 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 16:54:40,433 BaseInfo 44 Error Line No:38
+ERROR 2022-09-12 16:54:40,433 views 21 Model Initialization Failed
+ERROR 2022-09-12 16:54:40,433 views 22 Error Line No:18
+INFO 2022-09-12 16:54:40,434 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 16:54:56,477 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 16:54:57,007 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 16:54:59,536 Sports 241 运动模块故障:invalid literal for int() with base 10: ''
+ERROR 2022-09-12 16:54:59,536 Sports 242 Error Line No:221
+ERROR 2022-09-12 16:54:59,537 BaseInfo 43 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 16:54:59,537 BaseInfo 44 Error Line No:38
+ERROR 2022-09-12 16:54:59,537 views 21 Model Initialization Failed
+ERROR 2022-09-12 16:54:59,537 views 22 Error Line No:18
+INFO 2022-09-12 16:54:59,538 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 16:56:00,495 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:08:29,936 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:08:41,891 views 21 list indices must be integers or slices, not str
+ERROR 2022-09-12 17:08:41,892 views 22 Error Line No:18
+INFO 2022-09-12 17:08:41,892 basehttp 161 "POST / HTTP/1.1" 200 103
+INFO 2022-09-12 17:10:03,908 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:10:04,403 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 17:10:07,650 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:10:08,155 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 17:10:20,544 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:10:21,069 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 17:10:45,580 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:10:46,082 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:10:47,807 views 21 list indices must be integers or slices, not str
+ERROR 2022-09-12 17:10:47,807 views 22 Error Line No:18
+INFO 2022-09-12 17:10:47,808 basehttp 161 "POST / HTTP/1.1" 200 103
+INFO 2022-09-12 17:10:53,840 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:10:55,612 views 21 list indices must be integers or slices, not str
+ERROR 2022-09-12 17:10:55,612 views 22 Error Line No:18
+INFO 2022-09-12 17:10:55,613 basehttp 161 "POST / HTTP/1.1" 200 103
+INFO 2022-09-12 17:11:32,762 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 17:11:33,262 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:11:34,865 Sports 241 运动模块故障:invalid literal for int() with base 10: ''
+ERROR 2022-09-12 17:11:34,866 Sports 242 Error Line No:221
+ERROR 2022-09-12 17:11:34,866 BaseInfo 43 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 17:11:34,866 BaseInfo 44 Error Line No:38
+ERROR 2022-09-12 17:11:34,866 views 21 Model Initialization Failed
+ERROR 2022-09-12 17:11:34,866 views 22 Error Line No:18
+INFO 2022-09-12 17:11:34,867 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 17:11:58,966 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:11:59,457 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:12:01,505 views 21 list indices must be integers or slices, not str
+ERROR 2022-09-12 17:12:01,505 views 22 Error Line No:18
+INFO 2022-09-12 17:12:01,506 basehttp 161 "POST / HTTP/1.1" 200 103
+INFO 2022-09-12 17:13:19,096 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireList.py changed, reloading.
+INFO 2022-09-12 17:13:19,653 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 17:13:20,768 views 21 list assignment index out of range
+ERROR 2022-09-12 17:13:20,768 views 22 Error Line No:18
+INFO 2022-09-12 17:13:20,769 basehttp 161 "POST / HTTP/1.1" 200 89
+INFO 2022-09-12 18:47:18,983 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 18:47:21,365 Sports 241 运动模块故障:invalid literal for int() with base 10: ''
+ERROR 2022-09-12 18:47:21,366 Sports 242 Error Line No:221
+ERROR 2022-09-12 18:47:21,366 BaseInfo 49 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 18:47:21,366 BaseInfo 50 Error Line No:44
+ERROR 2022-09-12 18:47:21,366 views 21 Model Initialization Failed
+ERROR 2022-09-12 18:47:21,367 views 22 Error Line No:18
+INFO 2022-09-12 18:47:21,368 basehttp 161 "POST / HTTP/1.1" 200 82
+ERROR 2022-09-12 18:47:47,696 views 21 'user'
+ERROR 2022-09-12 18:47:47,696 views 22 Error Line No:18
+INFO 2022-09-12 18:47:47,697 basehttp 161 "POST / HTTP/1.1" 200 61
+INFO 2022-09-12 18:48:20,321 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:49:47,395 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 18:49:50,701 Sports 241 运动模块故障:'questionAnswer'
+ERROR 2022-09-12 18:49:50,702 Sports 242 Error Line No:204
+ERROR 2022-09-12 18:49:50,702 BaseInfo 49 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 18:49:50,702 BaseInfo 50 Error Line No:44
+ERROR 2022-09-12 18:49:50,702 views 21 Model Initialization Failed
+ERROR 2022-09-12 18:49:50,703 views 22 Error Line No:18
+INFO 2022-09-12 18:49:50,703 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 18:54:02,678 autoreload 251 E:\life\LifeSystem\LifeSystem\views.py changed, reloading.
+INFO 2022-09-12 18:54:03,274 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:54:05,739 basehttp 161 "POST / HTTP/1.1" 200 19
+INFO 2022-09-12 18:54:15,783 autoreload 251 E:\life\LifeSystem\LifeSystem\views.py changed, reloading.
+INFO 2022-09-12 18:54:16,284 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:54:18,472 basehttp 161 "POST / HTTP/1.1" 200 9
+INFO 2022-09-12 18:54:28,801 autoreload 251 E:\life\LifeSystem\LifeSystem\views.py changed, reloading.
+INFO 2022-09-12 18:54:29,315 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:54:53,007 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 18:54:53,527 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:54:54,720 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 18:54:55,250 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:55:32,181 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:56:07,196 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:56:20,150 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:57:01,373 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 18:59:44,829 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:00:26,571 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:01:57,501 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:01:58,869 Sports 242 运动模块故障:'questionAnswer'
+ERROR 2022-09-12 19:01:58,870 Sports 243 Error Line No:204
+ERROR 2022-09-12 19:01:58,870 BaseInfo 53 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-12 19:01:58,870 BaseInfo 54 Error Line No:45
+ERROR 2022-09-12 19:01:58,870 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:01:58,870 views 22 Error Line No:18
+INFO 2022-09-12 19:01:58,871 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:02:37,614 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-12 19:02:38,198 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:04:12,279 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-12 19:04:12,919 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:06:23,546 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Diet.py changed, reloading.
+INFO 2022-09-12 19:06:24,156 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:06:26,975 basehttp 161 "POST / HTTP/1.1" 200 165559
+INFO 2022-09-12 19:06:56,103 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Diet.py changed, reloading.
+INFO 2022-09-12 19:06:56,604 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:06:59,390 basehttp 161 "POST / HTTP/1.1" 200 165815
+INFO 2022-09-12 19:07:21,398 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Diet.py changed, reloading.
+INFO 2022-09-12 19:07:21,887 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:11:21,410 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:12:08,626 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-12 19:12:09,214 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:15:55,328 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:15:58,181 basehttp 161 "POST / HTTP/1.1" 200 166160
+INFO 2022-09-12 19:16:32,948 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:16:33,486 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:16:39,704 basehttp 161 "POST / HTTP/1.1" 200 165875
+INFO 2022-09-12 19:17:48,218 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:17:48,779 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:21:09,133 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:21:09,639 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:22:23,256 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:22:23,826 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:22:39,787 basehttp 161 "POST / HTTP/1.1" 200 165402
+INFO 2022-09-12 19:23:31,988 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:23:32,490 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:23:45,934 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:23:46,470 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:25:59,494 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:26:00,085 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:28:03,831 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:28:04,436 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:30:20,501 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:30:21,006 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:30:36,581 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:30:37,120 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:31:11,081 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:31:11,584 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:31:53,739 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:31:54,347 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:33:07,053 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:33:07,575 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:33:50,585 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:33:51,101 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:33:54,202 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 19:33:54,203 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:33:54,203 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:33:54,204 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:33:54,204 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:33:54,204 views 22 Error Line No:18
+INFO 2022-09-12 19:33:54,205 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:34:27,132 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:34:27,674 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:34:29,407 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 19:34:29,408 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:34:29,408 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:34:29,408 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:34:29,408 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:34:29,408 views 22 Error Line No:18
+INFO 2022-09-12 19:34:29,409 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:35:39,462 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:35:40,010 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:36:08,757 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\BaseInfo.py changed, reloading.
+INFO 2022-09-12 19:36:09,278 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:36:10,382 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 19:36:10,383 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:36:10,383 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:36:10,383 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:36:10,383 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:36:10,383 views 22 Error Line No:18
+INFO 2022-09-12 19:36:10,384 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:36:24,772 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:36:25,285 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:36:26,548 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 19:36:26,548 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:36:26,549 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:36:26,549 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:36:26,549 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:36:26,549 views 22 Error Line No:18
+INFO 2022-09-12 19:36:26,550 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:37:38,099 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:37:38,685 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:41:53,397 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:41:53,906 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:43:49,446 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:43:49,975 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:45:09,801 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:45:10,524 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:47:44,853 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:47:45,408 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:48:13,140 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:48:13,647 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:48:39,302 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:48:39,830 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:49:18,649 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:49:19,204 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:50:59,207 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:50:59,717 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:51:00,998 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 19:51:00,998 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:51:00,998 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:51:00,999 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:51:00,999 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:51:00,999 views 22 Error Line No:18
+INFO 2022-09-12 19:51:01,000 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:52:19,672 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 19:52:20,183 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:52:21,469 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 19:52:21,469 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:52:21,469 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:52:21,469 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:52:21,469 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:52:21,469 views 22 Error Line No:18
+INFO 2022-09-12 19:52:21,470 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:54:13,846 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:54:14,382 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:55:03,342 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:55:03,859 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 19:58:08,294 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:58:08,813 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:58:10,355 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 19:58:10,355 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:58:10,355 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:58:10,355 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:58:10,355 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:58:10,355 views 22 Error Line No:18
+INFO 2022-09-12 19:58:10,356 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:58:38,721 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:58:39,230 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:58:42,800 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 19:58:42,800 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:58:42,801 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:58:42,801 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:58:42,801 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:58:42,801 views 22 Error Line No:18
+INFO 2022-09-12 19:58:42,802 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 19:58:58,844 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 19:58:59,441 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 19:59:00,608 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 19:59:00,608 Mental 37 Error Line No:30
+ERROR 2022-09-12 19:59:00,608 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 19:59:00,608 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 19:59:00,609 views 21 Model Initialization Failed
+ERROR 2022-09-12 19:59:00,609 views 22 Error Line No:18
+INFO 2022-09-12 19:59:00,610 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:01:15,628 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:01:16,143 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:03:29,066 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:03:29,741 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:03:43,700 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:03:43,700 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:03:43,700 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:03:43,700 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:03:43,701 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:03:43,701 views 22 Error Line No:18
+INFO 2022-09-12 20:03:43,702 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:07:26,945 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:07:27,448 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:07:28,689 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:07:28,689 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:07:28,689 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:07:28,689 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:07:28,690 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:07:28,690 views 22 Error Line No:18
+INFO 2022-09-12 20:07:28,691 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:08:02,412 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:08:02,904 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:08:04,448 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:08:04,448 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:08:04,449 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:08:04,449 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:08:04,449 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:08:04,449 views 22 Error Line No:18
+INFO 2022-09-12 20:08:04,451 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:09:18,751 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:09:19,263 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:09:20,735 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:09:20,736 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:09:20,736 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:09:20,736 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:09:20,736 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:09:20,736 views 22 Error Line No:18
+INFO 2022-09-12 20:09:20,738 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:09:39,912 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:09:40,428 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:09:47,737 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:09:48,236 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:10:32,795 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:10:32,795 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:10:32,795 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:10:32,796 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:10:32,796 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:10:32,796 views 22 Error Line No:18
+INFO 2022-09-12 20:10:32,797 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:11:46,796 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:11:47,317 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:11:47,881 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:11:47,881 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:11:47,881 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:11:47,881 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:11:47,882 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:11:47,882 views 22 Error Line No:18
+INFO 2022-09-12 20:11:47,883 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:12:45,558 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:12:46,065 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:12:48,019 Mental 36 心理模块故障:'OptionInformationList' object is not iterable
+ERROR 2022-09-12 20:12:48,019 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:12:48,019 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:12:48,019 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:12:48,019 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:12:48,020 views 22 Error Line No:18
+INFO 2022-09-12 20:12:48,021 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:15:46,771 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:15:47,296 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:16:34,573 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:16:35,080 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:17:44,814 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:17:45,502 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:18:22,418 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:18:22,909 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:18:24,883 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:18:24,884 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:18:24,884 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:18:24,884 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:18:24,884 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:18:24,884 views 22 Error Line No:18
+INFO 2022-09-12 20:18:24,885 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:21:42,124 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:21:42,644 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:21:50,871 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:21:51,387 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:21:52,495 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:21:52,495 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:21:52,495 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:21:52,495 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:21:52,496 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:21:52,496 views 22 Error Line No:18
+INFO 2022-09-12 20:21:52,497 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:21:59,713 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:22:00,237 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:22:03,608 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:22:03,608 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:22:03,608 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:22:03,608 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:22:03,609 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:22:03,609 views 22 Error Line No:18
+INFO 2022-09-12 20:22:03,610 basehttp 161 "POST / HTTP/1.1" 200 82
+ERROR 2022-09-12 20:23:14,157 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:23:14,158 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:23:14,158 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:23:14,158 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:23:14,158 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:23:14,158 views 22 Error Line No:18
+INFO 2022-09-12 20:23:14,159 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:23:50,580 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:23:51,074 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:23:52,727 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:23:52,727 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:23:52,727 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:23:52,727 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:23:52,728 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:23:52,728 views 22 Error Line No:18
+INFO 2022-09-12 20:23:52,729 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:25:14,878 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:25:15,367 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:25:17,875 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:25:17,875 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:25:17,875 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:25:17,876 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:25:17,876 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:25:17,876 views 22 Error Line No:18
+INFO 2022-09-12 20:25:17,877 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:25:44,217 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:25:44,751 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:25:46,806 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:25:46,806 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:25:46,806 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:25:46,806 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:25:46,806 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:25:46,807 views 22 Error Line No:18
+INFO 2022-09-12 20:25:46,808 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:26:55,324 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:26:55,824 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:26:57,899 Mental 36 心理模块故障:__str__ returned non-string (type NoneType)
+ERROR 2022-09-12 20:26:57,899 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:26:57,899 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:26:57,900 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:26:57,900 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:26:57,900 views 22 Error Line No:18
+INFO 2022-09-12 20:26:57,901 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:29:41,258 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:29:41,757 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:29:43,094 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:29:43,094 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:29:43,094 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:29:43,094 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:29:43,094 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:29:43,095 views 22 Error Line No:18
+INFO 2022-09-12 20:29:43,096 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:30:11,898 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:30:13,446 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:30:13,447 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:30:13,447 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:30:13,447 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:30:13,447 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:30:13,448 views 22 Error Line No:18
+INFO 2022-09-12 20:30:13,448 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:30:29,460 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:30:30,059 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:30:31,755 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:30:31,756 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:30:31,756 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:30:31,756 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:30:31,756 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:30:31,756 views 22 Error Line No:18
+INFO 2022-09-12 20:30:31,757 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:31:00,858 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:31:01,349 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:31:04,736 Mental 36 心理模块故障:'QuestionnaireModel' object is not subscriptable
+ERROR 2022-09-12 20:31:04,737 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:31:04,737 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:31:04,737 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:31:04,737 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:31:04,737 views 22 Error Line No:18
+INFO 2022-09-12 20:31:04,738 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:33:38,473 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:33:39,001 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:33:40,927 Mental 36 心理模块故障:'NoneType' object has no attribute 'optionInformationList'
+ERROR 2022-09-12 20:33:40,928 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:33:40,928 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:33:40,928 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:33:40,928 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:33:40,928 views 22 Error Line No:18
+INFO 2022-09-12 20:33:40,929 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:34:48,551 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:34:49,042 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:34:56,364 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:34:56,852 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:34:58,054 Mental 36 心理模块故障:'NoneType' object has no attribute 'optionInformationList'
+ERROR 2022-09-12 20:34:58,055 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:34:58,055 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:34:58,056 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:34:58,056 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:34:58,056 views 22 Error Line No:18
+INFO 2022-09-12 20:34:58,057 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:36:12,575 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:36:13,078 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:36:16,573 Mental 36 心理模块故障:'NoneType' object has no attribute 'optionInformationList'
+ERROR 2022-09-12 20:36:16,573 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:36:16,573 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:36:16,574 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:36:16,574 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:36:16,574 views 22 Error Line No:18
+INFO 2022-09-12 20:36:16,575 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:37:28,738 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:37:29,252 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:37:33,402 Mental 36 心理模块故障:'NoneType' object has no attribute 'optionInformationList'
+ERROR 2022-09-12 20:37:33,403 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:37:33,403 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:37:33,403 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:37:33,403 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:37:33,403 views 22 Error Line No:18
+INFO 2022-09-12 20:37:33,405 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:37:45,862 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\QuestionnaireModel.py changed, reloading.
+INFO 2022-09-12 20:37:46,455 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:38:04,754 Mental 36 心理模块故障:'NoneType' object has no attribute 'optionInformationList'
+ERROR 2022-09-12 20:38:04,754 Mental 37 Error Line No:30
+ERROR 2022-09-12 20:38:04,754 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:38:04,755 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:38:04,755 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:38:04,755 views 22 Error Line No:18
+INFO 2022-09-12 20:38:04,756 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:42:41,203 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:42:41,709 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:42:57,841 basehttp 161 "POST / HTTP/1.1" 200 165841
+INFO 2022-09-12 20:46:33,047 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:46:33,702 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:46:36,236 basehttp 161 "POST / HTTP/1.1" 200 162126
+INFO 2022-09-12 20:53:32,062 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-12 20:53:32,567 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-12 20:53:34,016 Mental 26 心理模块故障:get_mental_proposal() takes 1 positional argument but 2 were given
+ERROR 2022-09-12 20:53:34,016 Mental 27 Error Line No:24
+ERROR 2022-09-12 20:53:34,016 BaseInfo 46 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-12 20:53:34,016 BaseInfo 47 Error Line No:36
+ERROR 2022-09-12 20:53:34,016 views 21 Model Initialization Failed
+ERROR 2022-09-12 20:53:34,017 views 22 Error Line No:18
+INFO 2022-09-12 20:53:34,017 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-12 20:53:43,041 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-12 20:53:43,552 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-12 20:53:46,527 basehttp 161 "POST / HTTP/1.1" 200 161960

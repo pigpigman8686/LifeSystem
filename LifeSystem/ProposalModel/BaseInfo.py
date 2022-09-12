@@ -4,6 +4,7 @@ from .Sports import Sports
 # from ..DB.Query import query
 from .TCM import TCM
 import logging
+from .QuestionnaireModel import QuestionnaireModel
 
 # 获取一个logger对象
 logger = logging.getLogger("django")
@@ -12,31 +13,35 @@ logger = logging.getLogger("django")
 class BaseInfo:
 
     def __init__(self, questionnaire):
-        # print(questionnaire['1'])
+        self.QuestionnaireNormal = QuestionnaireModel(questionnaire=questionnaire["1"])
+        self.QuestionnaireSport = QuestionnaireModel(questionnaire=questionnaire["2"])
+        self.QuestionnaireDiet = QuestionnaireModel(questionnaire=questionnaire["3"])
+        self.QuestionnaireMental = QuestionnaireModel(questionnaire=questionnaire["4"])
+        self.QuestionnaireUser = QuestionnaireModel(questionnaire=questionnaire["5"])
+        self.QuestionnaireUserAge = questionnaire["user"]["年龄"]
+        self.QuestionnaireUserGender = questionnaire["user"]["性别"]
 
-        # # 基础信息查询
-        # self.__username = user_information_result[1]
-        # self.__telphone_num = user_information_result[2]
-        # self.__sex = user_information_result[5]
-        # self.__date_of_birth = user_information_result[6]
-        self.__height = float(questionnaire['5'][0]['questionAnswer']['comment'])
-        self.__weight = float(questionnaire['5'][1]['questionAnswer']['comment'])
-        # self.__educational_level = user_information_result[9]
-        # self.__occupation = user_information_result[10]
+        # 基础信息查询
+        # self.height = float(questionnaire['5'][0]['questionAnswer']['comment'])
+        self.height = float(self.QuestionnaireUser.get_question(id=172).questionAnswer.comment)
+        # self.weight = float(questionnaire['5'][1]['questionAnswer']['comment'])
+        self.weight = float(self.QuestionnaireUser.get_question(id=173).questionAnswer.comment)
 
-        # # 基础信息计算
-        self.__bmi_result = self.count_bmi(self.__height, self.__weight)
-        self.__standard_weight = self.__height - 105
+        # 基础信息计算
+        self.bmi_result = self.count_bmi(self.height, self.weight)
+        self.standard_weight = self.height - 105
 
         try:
-            # # 心理、运动、饮食、中医信息模块
-            self.__Mental = Mental(questionnaire['4'])
-            # print(self.__Mental.proposal)
+            # 心理、运动、饮食、中医信息模块
+            self.__Mental = Mental(self.QuestionnaireMental)
+            # print("Mental Ok.....")
             self.__Sports = Sports(questionnaire['1'], questionnaire['2'], questionnaire['4'], questionnaire['5'],
-                                   questionnaire['user'], self.__bmi_result, self.__standard_weight)
-            self.__Diet = Diet(questionnaire, self.__bmi_result,
-                               self.__Sports.standard_calories)
+                                   questionnaire['user'], self.bmi_result, self.standard_weight)
+            # print("Sports Ok.....")
+            self.__Diet = Diet(questionnaire, self.bmi_result, self.__Sports.standard_calories)
+            # print("Diet Ok.....")
             self.__TCM = TCM(self.__Sports.sleepless, self.__Mental.mental_results)
+            # print("TCM Ok.....")
         except Exception as err:
             logger.error("四大模块创建失败:" + str(err))
             logger.error(f"Error Line No:{err.__traceback__.tb_lineno}")

@@ -210,7 +210,7 @@ class Sports:
             self.physical_activity_type = None  # 1:高体力活动  0:中体力活动 -1:低体力活动
             self.count_physical_activity_type()
 
-            self.standard_calories = count_standard_calories(bmi,
+            self.standard_calories = count_standard_calories(self.bmi,
                                                              self.physical_activity_type) * standard_weight  # 标准卡路里
             self.sum_homework_traffic_work_calories = count_sum_homework_traffic_work_calories(self.homework,
                                                                                                self.traffic, self.work,

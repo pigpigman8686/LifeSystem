@@ -85,7 +85,13 @@ class Diet:
                 self.now_K = 0
                 self.now_Mg = 0
                 self.get_sum(self.recommendFoods[i])
+                index = 0
+                # print(self.standard_calories, self.now_calories)
                 while abs(self.standard_calories - self.now_calories) > 600:
+                    if index > 200:
+                        break
+                    # print(self.standard_calories, self.now_calories)
+                    index += 1
                     self.recommendFoods.pop()
                     self.recommendFoods.append(self.count_diet_map())
                     self.init_var()
