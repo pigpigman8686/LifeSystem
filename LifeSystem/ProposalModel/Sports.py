@@ -5,6 +5,7 @@ from .Constant.SportInfo import PhysicalActivityMET, ResistanceSportInfo
 from .Constant.SportInfo import AerobicSportInfo, WarmingUp
 from .Constant.SportInfo import MildAerobictNames, MiddleAerobicNames, HeightAerobicNames
 from .Constant.SportInfo import MildResistanceNames, MiddleResistanceNames, GripPowerInfo
+from .QuestionnaireModel import QuestionnaireModel
 import logging
 
 # 获取一个logger对象
@@ -35,7 +36,7 @@ def count_standard_calories(bmi, physical_activity_type):
             return 35
 
 
-def format_data(questionnaire_sports):  # 将问卷结果格式化
+def format_data(questionnaire_sports: QuestionnaireModel):  # 将问卷结果格式化
     format_sports_data = {
         'Work': {
             'Mild': {
@@ -96,82 +97,81 @@ def format_data(questionnaire_sports):  # 将问卷结果格式化
     }
     index = {
         # Work
-        2: [
+        30: [
             'Work', 'Height', 'day'
         ],
-        3: [
+        31: [
             'Work', 'Height', 'time'
         ],
-        5: [
+        33: [
             'Work', 'Middle', 'day'
         ],
-        6: [
+        34: [
             'Work', 'Middle', 'time'
         ],
-        8: [
+        36: [
             'Work', 'Mild', 'day'
         ],
-        9: [
+        37: [
             'Work', 'Mild', 'time'
         ],
         # Traffic
-        11: [
+        39: [
             'Traffic', 'Mild', 'day'
         ],
-        12: [
+        40: [
             'Traffic', 'Mild', 'time'
         ],
-        14: [
+        42: [
             'Traffic', 'Height', 'day'
         ],
-        15: [
+        43: [
             'Traffic', 'Height', 'time'
         ],
-        17: [
+        45: [
             'Traffic', 'Middle', 'day'
         ],
-        18: [
+        46: [
             'Traffic', 'Middle', 'time'
         ],
         # Homework
-        20: [
+        48: [
             'Homework', 'Height', 'day'
         ],
-        21: [
+        49: [
             'Homework', 'Height', 'time'
         ],
-        23: [
+        51: [
             'Homework', 'Middle', 'day'
         ],
-        24: [
+        52: [
             'Homework', 'Middle', 'time'
         ],
         # # Relaxation
-        26: [
+        54: [
             'Relaxation', 'Mild', 'day'
         ],
-        27: [
+        55: [
             'Relaxation', 'Mild', 'time'
         ],
-        29: [
+        57: [
             'Relaxation', 'Height', 'day'
         ],
-        30: [
+        58: [
             'Relaxation', 'Height', 'time'
         ],
-        32: [
+        60: [
             'Relaxation', 'Middle', 'day'
         ],
-        33: [
+        61: [
             'Relaxation', 'Middle', 'time'
         ],
     }
     for count in index:
         # print(questionnaire_sports[count])
-        if questionnaire_sports[count]["questionAnswer"] != {}:
-            format_sports_data[index[count][0]][index[count][1]][index[count][2]] = int(
-                questionnaire_sports[count]['questionAnswer']['comment'])
-        # print(questionnaire_sports[count]['questionName'], index[count][0], index[count][1], index[count][2])  # 打印index和相对应的问题
+        question = questionnaire_sports.get_question(id=count)
+        if question.questionAnswer.comment:
+            format_sports_data[index[count][0]][index[count][1]][index[count][2]] = int(question.questionAnswer.comment)
     # print(format_sports_data)
     return format_sports_data
 
@@ -196,7 +196,8 @@ def count_sum_homework_traffic_work_calories(homework, traffic, work, weight):
 
 class Sports:
 
-    def __init__(self, questionnaire_normal, questionnaire_sports, questionnaire_mental, questionnaire_physiology,
+    def __init__(self, questionnaire_normal: QuestionnaireModel, questionnaire_sports: QuestionnaireModel,
+                 questionnaire_mental: QuestionnaireModel, questionnaire_physiology: QuestionnaireModel,
                  questionnaire_user, bmi, standard_weight):
         try:
             self.bmi = bmi
@@ -329,55 +330,60 @@ class Sports:
             cnt += 1
         return cnt
 
-    def is_normal_vital_capacity(self, questionnaire_physiology, questionnaire_user):
-        if questionnaire_user["性别"] == "男" and int(questionnaire_physiology[12]["questionAnswer"]["comment"]) < 3500:
+    def is_normal_vital_capacity(self, questionnaire_physiology: QuestionnaireModel, questionnaire_user):
+        question = questionnaire_physiology.get_question(id=184)
+        if questionnaire_user["性别"] == "男" and int(question.questionAnswer.comment) < 3500:
             self.normal_vital_capacity = False
             return
-        if questionnaire_user["性别"] == "女" and int(questionnaire_physiology[12]["questionAnswer"]["comment"]) < 2500:
+        if questionnaire_user["性别"] == "女" and int(question.questionAnswer.comment) < 2500:
             self.normal_vital_capacity = False
 
-    def is_normal_grip_power(self, questionnaire_physiology, questionnaire_user):
+    def is_normal_grip_power(self, questionnaire_physiology: QuestionnaireModel, questionnaire_user):
         age = int(questionnaire_user["年龄"])  # 原始年龄
+        question_left_grip_power = questionnaire_physiology.get_question(id=185)  # 握力
         if age < 18 or age > 59:
             return
         if age != 18 and age != 19:
             age = int(age / 5) * 5  # 年龄的左区间，以5为一个区间
         if questionnaire_user["性别"] == "男":
-            if int(questionnaire_physiology[13]["questionAnswer"]["comment"]) < GripPowerInfo["男"][age]:
+            if int(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["男"][age]:
                 self.normal_grip_power = False
         else:  # 女
-            if int(questionnaire_physiology[13]["questionAnswer"]["comment"]) < GripPowerInfo["女"][age]:
+            if int(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["女"][age]:
                 self.normal_grip_power = False
 
-    def is_sleepless(self, questionnaire_sports, questionnaire_mental):
-        if questionnaire_mental[20]["questionAnswer"]["optionId"] == "396" or \
-                questionnaire_mental[20]["questionAnswer"][
-                    "optionId"] == "397":  # 问卷4表二第七个问题：我的睡眠不好，选择3：有时或者说一半的时间或4：大多数时间，为睡眠不足
+    def is_sleepless(self, questionnaire_sports: QuestionnaireModel, questionnaire_mental: QuestionnaireModel):
+        question_sleep = questionnaire_mental.get_question(id=161)
+        if question_sleep.questionAnswer.optionId == "396" or question_sleep.questionAnswer.optionId == "397":
+        # if questionnaire_mental[20]["questionAnswer"]["optionId"] == "396" or \
+        #         questionnaire_mental[20]["questionAnswer"][
+        #             "optionId"] == "397":  # 问卷4表二第七个问题：我的睡眠不好，选择3：有时或者说一半的时间或4：大多数时间，为睡眠不足
             self.sleepless = True
             return
-        sleep_time = int(questionnaire_sports[36]['questionAnswer']['comment'])  # 睡眠时间
-        # print(int(questionnaire_sports[36]['questionAnswer']['comment']))
-        # print("sleep time:", sleep_time)
+        sleep_time = int(questionnaire_sports.get_question(id=64).questionAnswer.comment)  # 睡眠时间
+        print("sleep time:", sleep_time)
         if sleep_time < 6 * 60:  # 工作日睡眠时间小于360分钟，也为睡眠不足
             self.sleepless = True
 
-    def is_usual_site(self, questionnaire_sports):
-        site_time = int(questionnaire_sports[34]['questionAnswer']['comment'])  # 坐姿时间
+    def is_usual_site(self, questionnaire_sports: QuestionnaireModel):
+        site_time = int(questionnaire_sports.get_question(id=62).questionAnswer.comment)  # 坐姿时间
         # print(questionnaire_sports[34]['questionName'])
         # print(int(questionnaire_sports[34]['questionAnswer']['comment']))
         if site_time >= 6 * 60:
             self.usual_site = True
 
-    def is_usual_practice(self, questionnaire_normal):
-        if questionnaire_normal[10]["questionAnswer"]["optionId"] == "46":  # 从不参加运动
+    def is_usual_practice(self, questionnaire_normal: QuestionnaireModel):
+        question_is_sport = questionnaire_normal.get_question(id=16)
+        if question_is_sport.questionAnswer.optionId == "46":  # 从不参加运动
             self.is_usual_sport = -1
         else:
-            if questionnaire_normal[11]["questionAnswer"]["optionId"] == "47" or \
-                    questionnaire_normal[11]["questionAnswer"]["optionId"] == "48":  # 每月1-3次或每周1-2次则为不经常运动
+            question_sport_time = questionnaire_normal.get_question(id=17)
+            if question_sport_time.questionAnswer.optionId == "47" or \
+                    question_sport_time.questionAnswer.optionId == "48":  # 每月1-3次或每周1-2次则为不经常运动
                 self.is_usual_sport = -1
-            elif questionnaire_normal[11]["questionAnswer"]["optionId"] == "49":
+            elif question_sport_time.questionAnswer.optionId == "49":
                 self.is_usual_sport = 0
-            elif questionnaire_normal[11]["questionAnswer"]["optionId"] == "50":
+            elif question_sport_time.questionAnswer.optionId == "50":
                 self.is_usual_sport = 1
 
     def get_sports_proposal(self, questionnaire_sports, proportion, count):

@@ -40,9 +40,8 @@ def generate_food_dict(name, weight, calories, category):
 
 class Diet:
 
-    def __init__(self, user_information, bmi, standard_calories):  # physical_activity_type, standard_weight):
+    def __init__(self, bmi, standard_calories):  # physical_activity_type, standard_weight):
         try:
-            self.user_information = user_information
             self.proportion = bmi['bmi'] / 21
             self.standard_calories = standard_calories
             # self.standard_calories = count_standard_calories(bmi,

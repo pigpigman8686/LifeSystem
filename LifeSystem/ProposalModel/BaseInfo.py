@@ -17,15 +17,14 @@ class BaseInfo:
         self.QuestionnaireSport = QuestionnaireModel(questionnaire=questionnaire["2"])
         self.QuestionnaireDiet = QuestionnaireModel(questionnaire=questionnaire["3"])
         self.QuestionnaireMental = QuestionnaireModel(questionnaire=questionnaire["4"])
-        self.QuestionnaireUser = QuestionnaireModel(questionnaire=questionnaire["5"])
-        self.QuestionnaireUserAge = questionnaire["user"]["年龄"]
-        self.QuestionnaireUserGender = questionnaire["user"]["性别"]
+        self.QuestionnairePhysiology = QuestionnaireModel(questionnaire=questionnaire["5"])
+        self.QuestionnaireUser = {"年龄": questionnaire["user"]["年龄"], "性别": questionnaire["user"]["性别"]}
 
         # 基础信息查询
         # self.height = float(questionnaire['5'][0]['questionAnswer']['comment'])
-        self.height = float(self.QuestionnaireUser.get_question(id=172).questionAnswer.comment)
+        self.height = float(self.QuestionnairePhysiology.get_question(id=172).questionAnswer.comment)
         # self.weight = float(questionnaire['5'][1]['questionAnswer']['comment'])
-        self.weight = float(self.QuestionnaireUser.get_question(id=173).questionAnswer.comment)
+        self.weight = float(self.QuestionnairePhysiology.get_question(id=173).questionAnswer.comment)
 
         # 基础信息计算
         self.bmi_result = self.count_bmi(self.height, self.weight)
@@ -33,14 +32,16 @@ class BaseInfo:
 
         try:
             # 心理、运动、饮食、中医信息模块
-            self.__Mental = Mental(self.QuestionnaireMental)
+            self.Mental = Mental(self.QuestionnaireMental)
             # print("Mental Ok.....")
-            self.__Sports = Sports(questionnaire['1'], questionnaire['2'], questionnaire['4'], questionnaire['5'],
-                                   questionnaire['user'], self.bmi_result, self.standard_weight)
+            self.Sports = Sports(self.QuestionnaireNormal, self.QuestionnaireSport, self.QuestionnaireMental,
+                                 self.QuestionnairePhysiology, self.QuestionnaireUser, self.bmi_result, self.standard_weight)
+            # self.Sports = Sports(questionnaire['1'], questionnaire['2'], questionnaire['4'], questionnaire['5'],
+            #                      questionnaire['user'], self.bmi_result, self.standard_weight)
             # print("Sports Ok.....")
-            self.__Diet = Diet(questionnaire, self.bmi_result, self.__Sports.standard_calories)
+            self.Diet = Diet(self.bmi_result, self.Sports.standard_calories)
             # print("Diet Ok.....")
-            self.__TCM = TCM(self.__Sports.sleepless, self.__Mental.mental_results)
+            self.TCM = TCM(self.Sports.sleepless, self.Mental.mental_results)
             # print("TCM Ok.....")
         except Exception as err:
             logger.error("四大模块创建失败:" + str(err))
@@ -72,7 +73,7 @@ class BaseInfo:
         return waistline_result
 
     def get_proposal(self):
-        return {"Mental": self.__Mental.recommendMental,
-                "Sports": self.__Sports.recommendSports,
-                "Diet": self.__Diet.recommendDiet,
-                "TCM": self.__TCM.recommendTCM}
+        return {"Mental": self.Mental.recommendMental,
+                "Sports": self.Sports.recommendSports,
+                "Diet": self.Diet.recommendDiet,
+                "TCM": self.TCM.recommendTCM}

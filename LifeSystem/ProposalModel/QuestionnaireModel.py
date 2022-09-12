@@ -37,6 +37,9 @@ class QuestionAnswer:
             self.submitId = question_answer["submitId"]
             self.createDate = question_answer["createDate"]
 
+    def __str__(self):
+        return "[<QuestionAnswer Object: QuestionId: {}\tComment: {}>]".format(self.questionId, self.comment)
+
 
 class Question:
 
