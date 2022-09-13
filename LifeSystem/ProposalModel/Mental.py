@@ -78,7 +78,8 @@ class Mental:
         if self.mental_results['A'] <= 4 and self.mental_results['D'] < 10 and self.mental_results['P'] < 25:  # 均合格时
             proposal.append(MentalProposal_div["A<=4 D<10 P<25"])
             result_end = "您的情绪状态良好"
-            return {"得分": self.mental_results, "建议": proposal, "判断结果": result_end, "健康教育": {}}
+            return {"得分": self.mental_results, "建议": proposal, "判断结果": result_end,
+                    "健康教育": {"建议": None, "练习": None}}
         # P
         if 25 <= self.mental_results['P']:
             proposal.append(MentalProposal_div['25<=P'])

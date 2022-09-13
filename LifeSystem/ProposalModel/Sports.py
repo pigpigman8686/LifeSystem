@@ -346,22 +346,22 @@ class Sports:
         if age != 18 and age != 19:
             age = int(age / 5) * 5  # 年龄的左区间，以5为一个区间
         if questionnaire_user["性别"] == "男":
-            if int(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["男"][age]:
+            if float(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["男"][age]:
                 self.normal_grip_power = False
         else:  # 女
-            if int(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["女"][age]:
+            if float(question_left_grip_power.questionAnswer.comment) < GripPowerInfo["女"][age]:
                 self.normal_grip_power = False
 
     def is_sleepless(self, questionnaire_sports: QuestionnaireModel, questionnaire_mental: QuestionnaireModel):
         question_sleep = questionnaire_mental.get_question(id=161)
         if question_sleep.questionAnswer.optionId == "396" or question_sleep.questionAnswer.optionId == "397":
-        # if questionnaire_mental[20]["questionAnswer"]["optionId"] == "396" or \
-        #         questionnaire_mental[20]["questionAnswer"][
-        #             "optionId"] == "397":  # 问卷4表二第七个问题：我的睡眠不好，选择3：有时或者说一半的时间或4：大多数时间，为睡眠不足
+            # if questionnaire_mental[20]["questionAnswer"]["optionId"] == "396" or \
+            #         questionnaire_mental[20]["questionAnswer"][
+            #             "optionId"] == "397":  # 问卷4表二第七个问题：我的睡眠不好，选择3：有时或者说一半的时间或4：大多数时间，为睡眠不足
             self.sleepless = True
             return
         sleep_time = int(questionnaire_sports.get_question(id=64).questionAnswer.comment)  # 睡眠时间
-        print("sleep time:", sleep_time)
+        # print("sleep time:", sleep_time)
         if sleep_time < 6 * 60:  # 工作日睡眠时间小于360分钟，也为睡眠不足
             self.sleepless = True
 

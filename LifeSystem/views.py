@@ -15,8 +15,8 @@ def get_user_base_info(request):
     if request.method == 'POST':
         data = json.loads(request.body)  # 获取问卷数据
         try:
-            mhd = BaseInfo(data['questionnaire'])
-            return HttpResponse(json.dumps(mhd.get_proposal(), ensure_ascii=False))
+            user = BaseInfo(data['questionnaire'])
+            return HttpResponse(json.dumps(user.get_proposal(), ensure_ascii=False))
         except Exception as err:
             logger.error(str(err))
             logger.error(f"Error Line No:{err.__traceback__.tb_lineno}")

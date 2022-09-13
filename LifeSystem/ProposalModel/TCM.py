@@ -63,15 +63,20 @@ class TCM:
         # print(all_points)
         for point in all_points["穴位"]:
             temp_point = {point: PointLink[point]}
-            if point in PointSort["头颈部穴位按摩"]:  # 头颈部穴位按摩
+            if point in PointSort["头颈部穴位按摩"] and temp_point not in recommend_tcm["穴位按摩"][
+                "头颈部穴位按摩"]:  # 头颈部穴位按摩
                 recommend_tcm["穴位按摩"]["头颈部穴位按摩"].append(temp_point)
-            elif point in PointSort["上肢穴位按摩"]:  # 上肢穴位按摩
+            elif point in PointSort["上肢穴位按摩"] and temp_point not in recommend_tcm["穴位按摩"][
+                "上肢穴位按摩"]:  # 上肢穴位按摩
                 recommend_tcm["穴位按摩"]["上肢穴位按摩"].append(temp_point)
-            elif point in PointSort["下肢穴位按摩"]:  # 下肢穴位按摩
+            elif point in PointSort["下肢穴位按摩"] and temp_point not in recommend_tcm["穴位按摩"][
+                "下肢穴位按摩"]:  # 下肢穴位按摩
                 recommend_tcm["穴位按摩"]["下肢穴位按摩"].append(temp_point)
-            elif point in PointSort["腹部穴位按摩"]:  # 腹部穴位按摩
+            elif point in PointSort["腹部穴位按摩"] and temp_point not in recommend_tcm["穴位按摩"][
+                "腹部穴位按摩"]:  # 腹部穴位按摩
                 recommend_tcm["穴位按摩"]["腹部穴位按摩"].append(temp_point)
-            elif point in PointSort["耳部穴位按摩"]:  # 耳部穴位按摩
+            elif point in PointSort["耳部穴位按摩"] and temp_point not in recommend_tcm["穴位按摩"][
+                "耳部穴位按摩"]:  # 耳部穴位按摩
                 recommend_tcm["穴位按摩"]["耳部穴位按摩"].append(temp_point)
         for music in all_points["五行音乐"]:
             temp_music = {music: MusicLink[music]}
