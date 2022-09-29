@@ -1368,3 +1368,277 @@ INFO 2022-09-15 15:00:59,599 autoreload 637 Watching for file changes with StatR
 INFO 2022-09-15 15:01:02,648 basehttp 161 "POST / HTTP/1.1" 200 171055
 INFO 2022-09-15 15:04:07,298 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
 INFO 2022-09-15 15:04:07,834 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-28 14:16:31,195 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-28 14:16:35,833 basehttp 161 "POST / HTTP/1.1" 200 164936
+INFO 2022-09-29 10:34:04,355 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 10:34:18,550 basehttp 161 "POST / HTTP/1.1" 200 165105
+INFO 2022-09-29 10:42:42,658 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 10:42:43,199 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:30:51,198 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:30:53,156 basehttp 161 "POST / HTTP/1.1" 200 165767
+INFO 2022-09-29 12:33:31,746 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:33:32,331 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:37:09,924 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:37:10,423 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:37:21,801 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:37:22,382 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:37:28,704 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:37:29,238 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:37:37,585 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:37:38,117 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:37:53,597 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:37:54,156 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:04,544 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:05,046 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:07,271 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:07,829 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:18,220 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:18,725 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:21,993 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:22,506 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:34,913 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:35,451 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:40,720 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:41,231 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:50,576 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:51,064 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:38:56,240 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:38:56,765 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:07,186 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:39:07,674 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:21,110 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:39:21,640 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:33,032 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:39:33,561 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:43,932 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:39:44,458 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:54,834 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:39:55,379 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:39:59,659 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:00,174 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:04,429 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:04,941 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:08,194 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:08,735 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:13,013 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:13,544 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:17,799 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:18,307 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:22,576 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:23,147 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:30,477 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:30,999 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:40:49,591 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:40:50,106 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:41:12,721 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:41:13,254 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:41:32,837 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:41:33,382 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:41:46,864 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:41:47,368 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:41:57,756 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\MentalInfo.py changed, reloading.
+INFO 2022-09-29 12:41:58,272 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:42:28,096 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:42:28,619 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:51:16,033 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:51:16,566 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:51:43,096 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:51:43,590 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:51:47,761 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:51:48,254 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:53:20,854 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:53:21,377 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:54:22,925 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:54:23,416 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 12:54:30,742 views 21 'questionnaire'
+ERROR 2022-09-29 12:54:30,742 views 22 Error Line No:18
+INFO 2022-09-29 12:54:30,743 basehttp 161 "POST / HTTP/1.1" 200 70
+INFO 2022-09-29 12:55:03,481 autoreload 251 E:\life\LifeSystem\LifeSystem\views.py changed, reloading.
+INFO 2022-09-29 12:55:03,988 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 12:55:05,959 views 22 'questionnaire'
+ERROR 2022-09-29 12:55:05,959 views 23 Error Line No:19
+INFO 2022-09-29 12:55:05,960 basehttp 161 "POST / HTTP/1.1" 200 70
+INFO 2022-09-29 12:59:03,833 basehttp 161 "POST / HTTP/1.1" 200 185934
+INFO 2022-09-29 12:59:57,319 autoreload 251 E:\life\LifeSystem\LifeSystem\views.py changed, reloading.
+INFO 2022-09-29 12:59:57,801 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 12:59:59,009 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 12:59:59,560 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:02:02,270 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:05:49,120 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:05:50,682 basehttp 161 "POST / HTTP/1.1" 200 185747
+INFO 2022-09-29 13:06:19,108 basehttp 161 "POST / HTTP/1.1" 200 185994
+INFO 2022-09-29 13:06:28,149 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:06:28,641 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:06:28,754 basehttp 161 "POST / HTTP/1.1" 200 185623
+INFO 2022-09-29 13:07:22,870 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:07:23,425 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:07:33,792 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:07:34,300 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:08:08,151 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:08:08,694 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:08:55,850 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:08:56,349 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:09:31,243 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:09:31,793 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:10:17,922 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:10:18,437 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:10:31,871 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:10:32,381 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:10:39,696 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:10:40,220 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:10:50,645 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:10:51,157 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:10:57,514 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:10:58,047 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:11:10,500 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:11:11,016 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:11:21,394 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:11:21,909 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:11:33,323 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:11:33,826 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:11:44,206 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:11:44,734 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:13:11,581 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:13:12,102 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:13:38,809 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:13:39,324 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:13:43,580 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:13:44,106 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:13:46,324 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:13:46,842 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:13:49,052 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:13:49,569 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:14:09,061 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:14:09,578 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 13:15:03,358 Mental 27 心理模块故障:'调理性差的，粗心的'
+ERROR 2022-09-29 13:15:03,359 Mental 28 Error Line No:23
+ERROR 2022-09-29 13:15:03,359 BaseInfo 48 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-29 13:15:03,359 BaseInfo 49 Error Line No:36
+ERROR 2022-09-29 13:15:03,360 views 21 Model Initialization Failed
+ERROR 2022-09-29 13:15:03,360 views 22 Error Line No:18
+INFO 2022-09-29 13:15:03,361 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-29 13:15:50,832 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:15:51,310 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 13:15:53,596 Mental 27 心理模块故障:'调理性差的，粗心的'
+ERROR 2022-09-29 13:15:53,596 Mental 28 Error Line No:23
+ERROR 2022-09-29 13:15:53,597 BaseInfo 48 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-29 13:15:53,597 BaseInfo 49 Error Line No:36
+ERROR 2022-09-29 13:15:53,597 views 21 Model Initialization Failed
+ERROR 2022-09-29 13:15:53,597 views 22 Error Line No:18
+INFO 2022-09-29 13:15:53,599 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-29 13:16:27,340 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:16:27,853 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 13:16:29,214 Mental 27 心理模块故障:'内冷静的，情绪稳定的'
+ERROR 2022-09-29 13:16:29,214 Mental 28 Error Line No:23
+ERROR 2022-09-29 13:16:29,214 BaseInfo 48 四大模块创建失败:Mental Model Breakdown
+ERROR 2022-09-29 13:16:29,215 BaseInfo 49 Error Line No:36
+ERROR 2022-09-29 13:16:29,215 views 21 Model Initialization Failed
+ERROR 2022-09-29 13:16:29,215 views 22 Error Line No:18
+INFO 2022-09-29 13:16:29,216 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-29 13:17:47,818 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Mental.py changed, reloading.
+INFO 2022-09-29 13:17:48,343 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:17:49,580 basehttp 161 "POST / HTTP/1.1" 200 185676
+INFO 2022-09-29 13:27:32,687 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Physical.py changed, reloading.
+INFO 2022-09-29 13:27:33,273 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:37:30,920 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 13:37:38,731 basehttp 161 "POST / HTTP/1.1" 200 165042
+INFO 2022-09-29 14:12:52,013 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:12:55,229 basehttp 161 "POST / HTTP/1.1" 200 165774
+INFO 2022-09-29 14:14:22,073 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:14:22,595 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:14:24,293 basehttp 161 "POST / HTTP/1.1" 200 165642
+INFO 2022-09-29 14:15:41,531 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:15:42,063 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:15:43,856 basehttp 161 "POST / HTTP/1.1" 200 165373
+INFO 2022-09-29 14:16:05,822 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:16:06,322 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:16:08,974 basehttp 161 "POST / HTTP/1.1" 200 165305
+INFO 2022-09-29 14:20:14,804 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:20:15,307 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:22:40,789 basehttp 161 "POST / HTTP/1.1" 200 165089
+INFO 2022-09-29 14:23:11,128 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:23:11,686 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:23:15,961 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:23:16,524 autoreload 637 Watching for file changes with StatReloader
+ERROR 2022-09-29 14:23:17,735 Sports 249 运动模块故障:'NoneType' object has no attribute 'split'
+ERROR 2022-09-29 14:23:17,736 Sports 250 Error Line No:246
+ERROR 2022-09-29 14:23:17,736 BaseInfo 49 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-29 14:23:17,736 BaseInfo 50 Error Line No:40
+ERROR 2022-09-29 14:23:17,736 views 21 Model Initialization Failed
+ERROR 2022-09-29 14:23:17,736 views 22 Error Line No:18
+INFO 2022-09-29 14:23:17,737 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-29 14:24:22,011 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:24:22,532 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:24:24,406 basehttp 161 "POST / HTTP/1.1" 200 179176
+INFO 2022-09-29 14:25:20,971 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:25:21,489 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:25:23,113 basehttp 161 "POST / HTTP/1.1" 200 178561
+INFO 2022-09-29 14:25:29,908 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:25:30,459 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:25:32,332 basehttp 161 "POST / HTTP/1.1" 200 179145
+INFO 2022-09-29 14:25:49,110 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:25:49,623 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:25:56,951 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:25:57,464 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:26:00,795 basehttp 161 "POST / HTTP/1.1" 200 179616
+INFO 2022-09-29 14:26:23,136 basehttp 161 "POST / HTTP/1.1" 200 185804
+INFO 2022-09-29 14:26:39,566 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:26:40,138 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:26:51,086 basehttp 161 "POST / HTTP/1.1" 200 185327
+INFO 2022-09-29 14:27:32,489 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:27:32,988 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:27:34,826 basehttp 161 "POST / HTTP/1.1" 200 185762
+INFO 2022-09-29 14:27:56,732 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:27:57,265 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:29:30,365 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:29:30,894 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:29:41,257 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:29:41,820 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:30:56,708 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:30:58,523 basehttp 161 "POST / HTTP/1.1" 200 185357
+INFO 2022-09-29 14:31:37,778 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:31:38,434 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:31:46,787 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:31:47,281 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:51:19,038 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:51:21,937 basehttp 161 "POST / HTTP/1.1" 200 185266
+INFO 2022-09-29 14:51:51,959 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:51:52,565 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:51:54,911 basehttp 161 "POST / HTTP/1.1" 200 185138
+INFO 2022-09-29 14:53:48,186 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:53:48,739 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:54:41,964 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:54:42,533 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:55:05,208 basehttp 161 "POST / HTTP/1.1" 200 184829
+INFO 2022-09-29 14:55:19,523 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 14:55:20,076 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 14:55:21,599 basehttp 161 "POST / HTTP/1.1" 200 185098
+INFO 2022-09-29 15:00:55,114 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Sports.py changed, reloading.
+INFO 2022-09-29 15:00:55,653 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 15:02:29,787 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\SportInfo.py changed, reloading.
+INFO 2022-09-29 15:02:30,550 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 15:02:58,768 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 15:03:00,715 basehttp 161 "POST / HTTP/1.1" 200 185502
+INFO 2022-09-29 15:03:02,648 basehttp 161 "POST / HTTP/1.1" 200 186034
+INFO 2022-09-29 15:07:55,362 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 15:08:12,932 basehttp 161 "POST / HTTP/1.1" 200 185697
+INFO 2022-09-29 15:08:33,701 basehttp 161 "POST / HTTP/1.1" 200 189891
+INFO 2022-09-29 15:08:38,119 basehttp 161 "POST / HTTP/1.1" 200 185797
+INFO 2022-09-29 15:08:42,133 basehttp 161 "POST / HTTP/1.1" 200 185044
+INFO 2022-09-29 15:08:47,537 basehttp 161 "POST / HTTP/1.1" 200 185046
+INFO 2022-09-29 15:08:52,232 basehttp 161 "POST / HTTP/1.1" 200 185283
+INFO 2022-09-29 15:08:57,138 basehttp 161 "POST / HTTP/1.1" 200 186931
+INFO 2022-09-29 15:09:13,895 basehttp 161 "POST / HTTP/1.1" 200 186872
+INFO 2022-09-29 15:09:19,254 basehttp 161 "POST / HTTP/1.1" 200 185326
+INFO 2022-09-29 15:09:26,376 basehttp 161 "POST / HTTP/1.1" 200 185563
+ERROR 2022-09-29 15:09:31,842 Sports 249 运动模块故障:Sample larger than population or is negative
+ERROR 2022-09-29 15:09:31,842 Sports 250 Error Line No:246
+ERROR 2022-09-29 15:09:31,842 BaseInfo 49 四大模块创建失败:Sports Model Breakdown
+ERROR 2022-09-29 15:09:31,842 BaseInfo 50 Error Line No:40
+ERROR 2022-09-29 15:09:31,842 views 21 Model Initialization Failed
+ERROR 2022-09-29 15:09:31,842 views 22 Error Line No:18
+INFO 2022-09-29 15:09:31,843 basehttp 161 "POST / HTTP/1.1" 200 82
+INFO 2022-09-29 15:11:50,614 autoreload 251 E:\life\LifeSystem\LifeSystem\ProposalModel\Constant\SportInfo.py changed, reloading.
+INFO 2022-09-29 15:11:51,137 autoreload 637 Watching for file changes with StatReloader
+INFO 2022-09-29 15:11:54,183 basehttp 161 "POST / HTTP/1.1" 200 184986
+INFO 2022-09-29 15:11:58,115 basehttp 161 "POST / HTTP/1.1" 200 186053
