@@ -64,6 +64,9 @@ class Mental:
         # print(self.A)
 
         # character
+        if questionnaire_mental.get_question(id=215) is None:
+            # print("性格问卷空的！")
+            return
         for question_id in range(215, 225):
             question = questionnaire_mental.get_question(id=question_id)
             option_sort = 0
@@ -91,17 +94,18 @@ class Mental:
         conscientiousness_personality_score = 0  # 尽责性人格得分
         emotionally_personality_score = 0  # 情绪稳定人格得分
         open_personality_score = 0  # 开放性人格得分
-        print(data)
-        extroverted_personality_score += MentalScore["外向的，精力充沛的"][data["外向的，精力充沛的"]] + \
-                                         MentalScore["内向的，安静的"][data["内向的，安静的"]]
-        agreeable_personality_score += MentalScore["爱批评人的，爱争吵的"][data["爱批评人的，爱争吵的"]] + \
-                                       MentalScore["招人喜爱的，友善的"][data["招人喜爱的，友善的"]]
-        conscientiousness_personality_score += MentalScore["可信赖的，自律的"][data["可信赖的，自律的"]] + \
-                                               MentalScore["条理性差的，粗心的"][data["条理性差的，粗心的"]]
-        emotionally_personality_score += MentalScore["忧虑的，易烦心的"][data["忧虑的，易烦心的"]] + \
-                                         MentalScore["冷静的，情绪稳定的"][data["冷静的，情绪稳定的"]]
-        open_personality_score += MentalScore["易接受新事物的，常有新想法的"][data["易接受新事物的，常有新想法的"]] + \
-                                  MentalScore["遵循常规的，不爱创新的"][data["遵循常规的，不爱创新的"]]
+        # print(data)
+        if data != {}:
+            extroverted_personality_score += MentalScore["外向的，精力充沛的"][data["外向的，精力充沛的"]] + \
+                                             MentalScore["内向的，安静的"][data["内向的，安静的"]]
+            agreeable_personality_score += MentalScore["爱批评人的，爱争吵的"][data["爱批评人的，爱争吵的"]] + \
+                                           MentalScore["招人喜爱的，友善的"][data["招人喜爱的，友善的"]]
+            conscientiousness_personality_score += MentalScore["可信赖的，自律的"][data["可信赖的，自律的"]] + \
+                                                   MentalScore["条理性差的，粗心的"][data["条理性差的，粗心的"]]
+            emotionally_personality_score += MentalScore["忧虑的，易烦心的"][data["忧虑的，易烦心的"]] + \
+                                             MentalScore["冷静的，情绪稳定的"][data["冷静的，情绪稳定的"]]
+            open_personality_score += MentalScore["易接受新事物的，常有新想法的"][data["易接受新事物的，常有新想法的"]] + \
+                                      MentalScore["遵循常规的，不爱创新的"][data["遵循常规的，不爱创新的"]]
         return {"外向性人格得分": extroverted_personality_score,
                 "宜人性人格得分": agreeable_personality_score,
                 "尽责性人格得分": conscientiousness_personality_score,
