@@ -15,11 +15,12 @@ class Mental:
             self.D = {}  # D:抑郁
             self.A = {}  # A:焦虑
             self.P = {}  # P:压力
-            self.character = {}
+            self.Character = {}  # 性格
             self.init_questionnaire_mental(questionnaire_mental)
             self.mental_results = {'D': self.count_score(self.D),
                                    'A': self.count_score(self.A),
-                                   'P': self.count_score(self.P)}
+                                   'P': self.count_score(self.P),
+                                   'Character': self.count_character(self.Character)}
             # self.mental_results = {'D': 0, 'A': 0, 'P': 30}  # 测试用例
             self.recommendMental = self.get_mental_proposal()
         except Exception as err:
@@ -62,6 +63,17 @@ class Mental:
             self.A[question.questionName] = option_sort
         # print(self.A)
 
+        # character
+        for question_id in range(215, 225):
+            question = questionnaire_mental.get_question(id=question_id)
+            option_sort = 0
+            for option in question.optionInformationList:
+                if question.questionAnswer.optionId == option.id:
+                    option_sort = option.optionSort
+                    break
+            self.Character[question.questionName] = option_sort
+        # print(self.Character)
+
     @staticmethod
     def count_score(data):  # 计算每个心理模块的分数：压力、抑郁、焦虑
         score = 0
@@ -71,6 +83,30 @@ class Mental:
             score += MentalScore[i][data[i]]
         # print(score)
         return score
+
+    @staticmethod
+    def count_character(data):
+        extroverted_personality_score = 0  # 外向性人格得分
+        agreeable_personality_score = 0  # 宜人性人格得分
+        conscientiousness_personality_score = 0  # 尽责性人格得分
+        emotionally_personality_score = 0  # 情绪稳定人格得分
+        open_personality_score = 0  # 开放性人格得分
+        print(data)
+        extroverted_personality_score += MentalScore["外向的，精力充沛的"][data["外向的，精力充沛的"]] + \
+                                         MentalScore["内向的，安静的"][data["内向的，安静的"]]
+        agreeable_personality_score += MentalScore["爱批评人的，爱争吵的"][data["爱批评人的，爱争吵的"]] + \
+                                       MentalScore["招人喜爱的，友善的"][data["招人喜爱的，友善的"]]
+        conscientiousness_personality_score += MentalScore["可信赖的，自律的"][data["可信赖的，自律的"]] + \
+                                               MentalScore["条理性差的，粗心的"][data["条理性差的，粗心的"]]
+        emotionally_personality_score += MentalScore["忧虑的，易烦心的"][data["忧虑的，易烦心的"]] + \
+                                         MentalScore["冷静的，情绪稳定的"][data["冷静的，情绪稳定的"]]
+        open_personality_score += MentalScore["易接受新事物的，常有新想法的"][data["易接受新事物的，常有新想法的"]] + \
+                                  MentalScore["遵循常规的，不爱创新的"][data["遵循常规的，不爱创新的"]]
+        return {"外向性人格得分": extroverted_personality_score,
+                "宜人性人格得分": agreeable_personality_score,
+                "尽责性人格得分": conscientiousness_personality_score,
+                "情绪稳定人格得分": emotionally_personality_score,
+                "开放性人格得分": open_personality_score}
 
     def get_mental_proposal(self):  # 哪个不合格添加哪个建议
         proposal = []

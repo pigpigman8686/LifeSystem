@@ -3,6 +3,7 @@ from .Mental import Mental
 from .Sports import Sports
 # from ..DB.Query import query
 from .TCM import TCM
+from .Physical import Physical
 import logging
 from .QuestionnaireModel import QuestionnaireModel
 
@@ -35,14 +36,15 @@ class BaseInfo:
             self.Mental = Mental(self.QuestionnaireMental)
             # print("Mental Ok.....")
             self.Sports = Sports(self.QuestionnaireNormal, self.QuestionnaireSport, self.QuestionnaireMental,
-                                 self.QuestionnairePhysiology, self.QuestionnaireUser, self.bmi_result, self.standard_weight)
-            # self.Sports = Sports(questionnaire['1'], questionnaire['2'], questionnaire['4'], questionnaire['5'],
-            #                      questionnaire['user'], self.bmi_result, self.standard_weight)
+                                 self.QuestionnairePhysiology, self.QuestionnaireUser, self.bmi_result,
+                                 self.standard_weight)
             # print("Sports Ok.....")
             self.Diet = Diet(self.bmi_result, self.Sports.standard_calories)
             # print("Diet Ok.....")
             self.TCM = TCM(self.Sports.sleepless, self.Mental.mental_results)
             # print("TCM Ok.....")
+            self.Physical = Physical(self.Sports)
+            # print("Physical Ok.....")
         except Exception as err:
             logger.error("四大模块创建失败:" + str(err))
             logger.error(f"Error Line No:{err.__traceback__.tb_lineno}")
@@ -76,4 +78,5 @@ class BaseInfo:
         return {"Mental": self.Mental.recommendMental,
                 "Sports": self.Sports.recommendSports,
                 "Diet": self.Diet.recommendDiet,
-                "TCM": self.TCM.recommendTCM}
+                "TCM": self.TCM.recommendTCM,
+                "Physical": self.Physical.PhysicalLevel}

@@ -226,8 +226,15 @@ class Sports:
             self.is_sleepless(questionnaire_sports, questionnaire_mental)
             self.usual_site = False  # 久坐
             self.is_usual_site(questionnaire_sports)
+            self.is_usual_sport = -1  # 经常运动情况： -1:不经常运动 0:经常运动 1:每天运动
             self.is_usual_practice(questionnaire_normal)
-            self.is_usual_sport = -1  # -1:不经常运动 0:经常运动 1:每天运动
+            self.blood_calcium = 0  # 血钙情况： -1:血钙偏低 0:血钙正常 1:血钙偏高
+            self.is_blood_calcium(questionnaire_physiology)
+            self.blood_magnesium = 0  # 血镁情况： -1:血镁偏低 0:血镁正常 1:血镁偏高
+            self.is_blood_magnesium(questionnaire_physiology)
+            self.homocysteine = 0  # 同型半胱氨酸情况： 0:同型半胱氨酸正常 1:同型半胱氨酸轻度升高 2:同型半胱氨酸中度升高 3:同型半胱氨酸重度升高
+            self.is_homocysteine(questionnaire_physiology)
+
             self.recommendSports = []
             count = 0  # 用于四种运动循环推荐
             for i in range(0, 30):  # 生成n次运动建议
@@ -385,6 +392,66 @@ class Sports:
                 self.is_usual_sport = 0
             elif question_sport_time.questionAnswer.optionId == "50":
                 self.is_usual_sport = 1
+
+    def is_blood_calcium(self, questionnaire_normal: QuestionnaireModel):
+        question_all_blood_calcium = questionnaire_normal.get_question(id=225)
+        question_blood_calcium = questionnaire_normal.get_question(id=226)
+        if question_all_blood_calcium.questionAnswer is {} and question_blood_calcium.questionAnswer is {}:
+            self.blood_calcium = None
+            return
+        all_blood_calcium = 2.25
+        blood_calcium = 1.10
+        if question_all_blood_calcium.questionAnswer != {}:
+            all_blood_calcium = float(question_all_blood_calcium.questionAnswer.comment)
+        if question_blood_calcium.questionAnswer != {}:
+            blood_calcium = float(question_blood_calcium.questionAnswer.comment)
+        # 血钙正常：血清总钙浓度≥2.25且≤2.75mmol/L或者血清离子钙浓度≥1.10且≤1.37mmol/L；血钙偏低：血清总钙浓度＜2.25mmol/L或者血清离子钙浓度＜1.10mmol/L；血钙偏高：血清总钙浓度＞2.75mmol/L或者血清离子钙浓度＞1.37mmol/L
+        if 2.25 <= all_blood_calcium <= 2.75 or 1.10 <= blood_calcium <= 1.37:
+            self.blood_calcium = 0
+            return
+        if all_blood_calcium <= 2.25 or blood_calcium < 1.10:
+            self.blood_calcium = -1
+            return
+        if all_blood_calcium > 2.75 or blood_calcium > 1.37:
+            self.blood_calcium = 1
+            return
+
+    def is_blood_magnesium(self, questionnaire_normal: QuestionnaireModel):
+        question_blood_magnesium = questionnaire_normal.get_question(id=227)
+        if question_blood_magnesium.questionAnswer is {}:
+            self.blood_magnesium = None
+            return
+        blood_magnesium = float(question_blood_magnesium.questionAnswer.comment)
+        # 血镁正常：≥0.75且≤1.25 mmol/L；血镁偏低：＜0.75 mmol/L；血镁偏高：＞1.25 mmol/L
+        if 0.75 <= blood_magnesium <= 1.25:
+            self.blood_magnesium = 0
+            return
+        if blood_magnesium < 0.75:
+            self.blood_magnesium = -1
+            return
+        if blood_magnesium > 1.25:
+            self.blood_magnesium = 1
+            return
+
+    def is_homocysteine(self, questionnaire_normal: QuestionnaireModel):
+        question_homocysteine = questionnaire_normal.get_question(id=228)
+        if question_homocysteine.questionAnswer is {}:
+            self.homocysteine = None
+            return
+        homocysteine = float(question_homocysteine.questionAnswer.comment)
+        # 同型半胱氨酸正常：＜10μmol/L；同型半胱氨酸轻度升高：≥10μmol/L且＜15μmol/L；同型半胱氨酸中度升高：≥15μmol/L且＜30μmol/L；同型半胱氨酸重度升高：≥30μmol/L】
+        if homocysteine < 10:
+            self.homocysteine = 0
+            return
+        if 10 <= homocysteine < 15:
+            self.homocysteine = 1
+            return
+        if 15 <= homocysteine < 30:
+            self.homocysteine = 2
+            return
+        if homocysteine >= 30:
+            self.homocysteine = 3
+            return
 
     def get_sports_proposal(self, questionnaire_sports, proportion, count):
         aerobic_all_sports = AerobicSportInfo.copy()  # 有氧运动深拷贝
