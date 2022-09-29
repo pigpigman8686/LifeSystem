@@ -2,7 +2,7 @@ import json
 import random
 # from ..DB.Query import query
 from .Constant.SportInfo import PhysicalActivityMET, ResistanceSportInfo
-from .Constant.SportInfo import AerobicSportInfo, WarmingUp
+from .Constant.SportInfo import AerobicSportInfo, WarmingUp, PersonalRecommendSports
 from .Constant.SportInfo import MildAerobictNames, MiddleAerobicNames, HeightAerobicNames
 from .Constant.SportInfo import MildResistanceNames, MiddleResistanceNames, GripPowerInfo
 from .QuestionnaireModel import QuestionnaireModel
@@ -243,7 +243,7 @@ class Sports:
                 elif self.is_usual_sport == 0 and (i % 7 == 2 or i % 7 == 5):
                     self.recommendSports.append({})
                 else:
-                    self.recommendSports.append(self.get_sports_proposal(questionnaire_sports, self.proportion, count))
+                    self.recommendSports.append(self.get_sports_proposal(questionnaire_normal, count))
                     count += 1
         except Exception as err:
             logger.error("运动模块故障:" + str(err))
@@ -453,11 +453,15 @@ class Sports:
             self.homocysteine = 3
             return
 
-    def get_sports_proposal(self, questionnaire_sports, proportion, count):
+    def get_sports_proposal(self, questionnaire_normal: QuestionnaireModel, count):
         aerobic_all_sports = AerobicSportInfo.copy()  # 有氧运动深拷贝
         resistance_all_sports = ResistanceSportInfo.copy()  # 抗阻运动深拷贝
         all_sports = dict(aerobic_all_sports, **resistance_all_sports)  # 有氧运动 + 抗阻运动 合并为同一个字典
         # 开始推荐运动
+        self.normal_vital_capacity = True
+        self.normal_grip_power = True
+        self.bmi["bmi_state"] = "正常"
+        self.is_usual_sport = 0
         if self.bmi["bmi_state"] == "超重" or self.bmi["bmi_state"] == "肥胖" or \
                 not self.normal_grip_power or not self.normal_vital_capacity:  # 超重、肥胖、握力弱、肺活量低只推荐中低强度
             aerobic_sport_name = random.sample(list(MildAerobictNames + MiddleAerobicNames), 1)[0]
@@ -468,7 +472,17 @@ class Sports:
             aerobic_sport_name = four_sports[count % 4]
             resistance_sport_name = random.sample(list(MildResistanceNames + MiddleResistanceNames), 1)[0]
         else:
-            aerobic_sport_name = random.sample(AerobicSportInfo.keys(), 1)[0]  # 随机1种有氧运动
+            question_usual_sport_names = questionnaire_normal.get_question(id=18).questionAnswer  # 用户常用的锻炼方式
+            if question_usual_sport_names != {}:  # 用户有常用的锻炼方式
+                question_usual_sport_names_list = str(question_usual_sport_names.optionId).split(",")  # 多选分割
+                personal_recommend_sports = []  # 所有个性化运动名单
+                for i in question_usual_sport_names_list:
+                    personal_recommend_sports += PersonalRecommendSports[i]
+                aerobic_sport_name = random.sample(personal_recommend_sports, 1)[0]  # 个性化运动中随机1种有氧运动
+                # print(question_usual_sport_names_list)
+                # print(personal_recommend_sports)
+            else:  # 用户没有常用的锻炼方式
+                aerobic_sport_name = random.sample(AerobicSportInfo.keys(), 1)[0]  # 随机1种有氧运动
             resistance_sport_name = random.sample(ResistanceSportInfo.keys(), 1)[0]  # 随机1种抗阻运动
         sports_names = [aerobic_sport_name, resistance_sport_name]
         proposal_sports = {
