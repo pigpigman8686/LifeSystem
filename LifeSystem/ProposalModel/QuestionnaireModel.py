@@ -77,7 +77,7 @@ class QuestionnaireModel:
         for i in questionnaire:
             self.QuestionList.append(Question(i))
 
-    def get_question(self, id):  # 根据id获取问卷中的问题
+    def get_question(self, id) -> Question:  # 根据id获取问卷中的问题
         for i in self.QuestionList:
             if i.id == id:
                 return i

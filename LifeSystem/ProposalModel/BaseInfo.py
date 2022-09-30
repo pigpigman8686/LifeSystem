@@ -43,7 +43,7 @@ class BaseInfo:
             # print("Diet Ok.....")
             self.TCM = TCM(self.Sports.sleepless, self.Mental.mental_results)
             # print("TCM Ok.....")
-            self.Physical = Physical(self.Sports)
+            self.Physical = Physical(self.Sports, self.bmi_result["bmi_state"], self.QuestionnairePhysiology)
             # print("Physical Ok.....")
         except Exception as err:
             logger.error("四大模块创建失败:" + str(err))
