@@ -396,14 +396,14 @@ class Sports:
     def is_blood_calcium(self, questionnaire_normal: QuestionnaireModel):
         question_all_blood_calcium = questionnaire_normal.get_question(id=225)
         question_blood_calcium = questionnaire_normal.get_question(id=226)
-        if question_all_blood_calcium.questionAnswer is {} and question_blood_calcium.questionAnswer is {}:
+        if question_all_blood_calcium.questionAnswer.comment == "" and question_blood_calcium.questionAnswer.comment == "":
             self.blood_calcium = None
             return
         all_blood_calcium = 2.25
         blood_calcium = 1.10
-        if question_all_blood_calcium.questionAnswer != {}:
+        if question_all_blood_calcium.questionAnswer.comment != "":
             all_blood_calcium = float(question_all_blood_calcium.questionAnswer.comment)
-        if question_blood_calcium.questionAnswer != {}:
+        if question_blood_calcium.questionAnswer.comment != "":
             blood_calcium = float(question_blood_calcium.questionAnswer.comment)
         # 血钙正常：血清总钙浓度≥2.25且≤2.75mmol/L或者血清离子钙浓度≥1.10且≤1.37mmol/L；血钙偏低：血清总钙浓度＜2.25mmol/L或者血清离子钙浓度＜1.10mmol/L；血钙偏高：血清总钙浓度＞2.75mmol/L或者血清离子钙浓度＞1.37mmol/L
         if 2.25 <= all_blood_calcium <= 2.75 or 1.10 <= blood_calcium <= 1.37:
@@ -418,7 +418,7 @@ class Sports:
 
     def is_blood_magnesium(self, questionnaire_normal: QuestionnaireModel):
         question_blood_magnesium = questionnaire_normal.get_question(id=227)
-        if question_blood_magnesium.questionAnswer is {}:
+        if question_blood_magnesium.questionAnswer.comment == "":
             self.blood_magnesium = None
             return
         blood_magnesium = float(question_blood_magnesium.questionAnswer.comment)
@@ -435,7 +435,7 @@ class Sports:
 
     def is_homocysteine(self, questionnaire_normal: QuestionnaireModel):
         question_homocysteine = questionnaire_normal.get_question(id=228)
-        if question_homocysteine.questionAnswer is {}:
+        if question_homocysteine.questionAnswer.comment == "":
             self.homocysteine = None
             return
         homocysteine = float(question_homocysteine.questionAnswer.comment)
