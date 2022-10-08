@@ -472,9 +472,9 @@ class Sports:
             aerobic_sport_name = four_sports[count % 4]
             resistance_sport_name = random.sample(list(MildResistanceNames + MiddleResistanceNames), 1)[0]
         else:
-            question_usual_sport_names = questionnaire_normal.get_question(id=18).questionAnswer  # 用户常用的锻炼方式
-            if question_usual_sport_names != {}:  # 用户有常用的锻炼方式
-                question_usual_sport_names_list = str(question_usual_sport_names.optionId).split(",")  # 多选分割
+            question_usual_sport = questionnaire_normal.get_question(id=18)  # 用户常用的锻炼方式
+            if question_usual_sport.questionAnswer.comment is not None:  # 用户有常用的锻炼方式
+                question_usual_sport_names_list = str(question_usual_sport.questionAnswer.optionId).split(",")  # 多选分割
                 personal_recommend_sports = []  # 所有个性化运动名单
                 for i in question_usual_sport_names_list:
                     personal_recommend_sports += PersonalRecommendSports[i]
